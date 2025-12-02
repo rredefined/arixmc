@@ -4,8 +4,8 @@ import Image from "next/image"
 const staffMembers = [
   {
     name: "qNighT_",
-    role: "Owner",
-    description: "Founder and lead developer of CraftRealm. Passionate about creating the best Minecraft experience.",
+    role: "Supreme",
+    description: "Founder and lead developer of ArixMC. Passionate about creating the best Minecraft experience.",
     avatar:
       "https://i.imgur.com/zK2XeEj.png",
     icon: Crown,
