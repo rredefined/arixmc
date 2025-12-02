@@ -20,7 +20,7 @@ export default function StorePage() {
   useEffect(() => {
     // Redirect to external store after 3 seconds
     const timer = setTimeout(() => {
-      window.open("https://store.craftrealm.net", "_blank")
+      window.open("https://discord.arixmc.fun", "_blank")
     }, 3000)
 
     return () => clearTimeout(timer)
@@ -33,8 +33,8 @@ export default function StorePage() {
           <div className="inline-flex items-center justify-center w-24 h-24 bg-green-500/20 rounded-full mb-8 neon-glow-green p-4">
             <div className="w-16 h-16 rounded-lg overflow-hidden">
               <Image
-                src="https://sjc.microlink.io/Urp0tNZenE8Ucn9pxVrQWrW5X33QYgvG_DdUbukIjI12XUEK7EXrr0tu5eeNDQNqqzGOYUIAn9YtZnkscMg2bQ.jpeg"
-                alt="CraftRealm Creeper Logo"
+                src="https://i.imgur.com/OC3oTiC.png"
+                alt="ArixMC Logo"
                 width={64}
                 height={64}
                 className="w-full h-full object-cover"
@@ -61,7 +61,7 @@ export default function StorePage() {
           </div>
 
           <a
-            href="https://store.craftrealm.net"
+            href="https://discord.arixmc.fun"
             target="_blank"
             rel="noopener noreferrer"
             className="minecraft-btn inline-flex items-center space-x-2 neon-glow-green"
@@ -72,7 +72,7 @@ export default function StorePage() {
 
           <div className="mt-8">
             <button
-              onClick={() => copyToClipboard("play.craftrealm.net")}
+              onClick={() => copyToClipboard("mc.arixmc.fun")}
               className="minecraft-btn inline-flex items-center space-x-2 neon-glow-green mr-4"
             >
               <span>{copied ? "IP Copied!" : "Copy Server IP"}</span>
